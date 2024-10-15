@@ -43,7 +43,7 @@ void AMyTrigger::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Oth
             }
             else
             {
-                UE_LOG(LogTemp, Warning, TEXT("Игрок с щитом, шипы не могут его тронуть!"));
+                UE_LOG(LogTemp, Warning, TEXT("Р•СЃС‚СЊ С‰РёС‚!"));
                 PlayerCharacter->bHasShield = false;
                 Destroy();
             }
